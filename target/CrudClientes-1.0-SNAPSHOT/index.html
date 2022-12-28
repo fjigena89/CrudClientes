@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+
+    <display-name>Proyecto FInal</display-name>
+
+    <welcome-file-list>
+    <welcome-file>ClientesController</welcome-file>   
+     <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
+    <servlet>
+        <servlet-name>ClientesController</servlet-name>
+        <servlet-class>controlador.ClientesController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ClientesController</servlet-name>
+        <url-pattern>/ClientesController</url-pattern>
+    </servlet-mapping>  
+</web-app>
